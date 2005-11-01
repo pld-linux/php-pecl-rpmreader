@@ -8,7 +8,7 @@ Summary(pl):	%{_modname} - odczyt metainformacji z plików RPM
 Name:		php-pecl-%{_modname}
 Version:	0.2
 Release:	1
-License:	PHP 2.02
+License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
 # Source0-md5:	dee4fc562262dc9f0708d0b3e6e087e6
