@@ -7,7 +7,7 @@ Summary:	%{_modname} - RPM file meta information reader
 Summary(pl):	%{_modname} - odczyt metainformacji z plików RPM
 Name:		php-pecl-%{_modname}
 Version:	0.3
-Release:	1
+Release:	2
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 rpmreader is an extension that provides the ability to read RPM
 Package Manager (RPM) files' header information. This extension
-currently does not provide the functionality to read the signature
-or archive sections of the RPM file.
+currently does not provide the functionality to read the signature or
+archive sections of the RPM file.
 
 In PECL status of this extension is: %{_status}.
 
