@@ -5,7 +5,7 @@ Summary:	%{modname} - RPM file meta information reader
 Summary(pl.UTF-8):	%{modname} - odczyt metainformacji z plików RPM
 Name:		%{php_name}-pecl-%{modname}
 Version:	0.3
-Release:	5
+Release:	6
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
@@ -14,7 +14,8 @@ URL:		http://pecl.php.net/package/rpmreader/
 BuildRequires:	%{php_name}-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
-Requires:	php-common >= 4:5.0.4
+Requires:	php(core) >= 5.0.4
+Provides:	php(%{modname}) = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
